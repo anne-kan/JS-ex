@@ -1,0 +1,8 @@
+
+(function() {
+    // your code here
+    var myVariable;
+    myVariable ="<em>Hello, World!</em>"
+
+})
+alert(myVariable);
