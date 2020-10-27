@@ -3,6 +3,372 @@
     // your code here
     var myVariable;
     myVariable ="<em>Hello, World!</em>"
+    alert(myVariable);
+})();
 
-})
-alert(myVariable);
+(function() {
+
+    // your code here  
+   var begin = 'Hello,', name , end = ' !' , result;
+   name= prompt('Quel est ton nom?');
+   result = begin +name +end;
+   alert(result);
+})();
+
+(function() {
+
+  // your code here
+  if(confirm('Do you want some cake?'"yes" )) {
+  alert('congratulation!');
+  }
+  else {
+  alert('<em> More cake for me then :p !'</em>)
+  }
+
+})();
+
+(function() {
+
+    // your code here
+    var start = age ,gender ,town ,responses;
+    age = prompt('Quel age as-tu?');
+    gender= prompt('Quel est ton genre?);
+    town= prompt('D\'où viens-tu?');
+    responses = ('J'ai')+ age +('ans ;' )+ ('je suis') + gender + ('je viens de') + town ; 
+    
+    if(confirm('Ces réponses sont-elles exactes?'"Oui"')) {
+        alert(responses); 
+    }
+        else {
+        alert('<em>re-run the process</em>');
+        }
+})();
+----------------------------------------------------------------------------------------------------
+2.1. calculator:
+
+(function() {
+    // to get the value of an input: document.getElementById("element-id").value
+
+    document.getElementById("addition").addEventListener("click", function() {
+        // perform an addition
+        var number1 = 4, number2=7, result;
+        result= number1 +number2;
+        alert=(result);
+        
+    });
+
+    document.getElementById("substraction").addEventListener("click", function() {
+        // perform an substraction
+        var number=8,result ;
+        result= number-3;
+        alert=(result);
+    });
+
+    document.getElementById("multiplication").addEventListener("click", function() {
+        // perform an multiplication
+        var number1=5, number2=2, result;
+        result= number2*number1;
+        alert(result);
+    });
+
+    document.getElementById("division").addEventListener("click", function() {
+        // perform an division
+         var number=12,result ;
+        result= number/4;
+        alert=(result);
+    });
+})();
+----------------------------------------------------------------------------------------------
+2.2. calculator :
+
+
+console.log(calculate(problem));
+switch(operator)
+        {
+            case '+':
+                result = first + second;
+                break;
+
+            case '-':
+                result = first - second;
+                break;
+
+            case '*':
+                result = first * second;
+                break;
+
+            case '/':
+                result = first / second;
+                break;
+
+            // operator doesn't match any case constant (+, -, *, /)
+            default:
+                System.out.printf("Error! operator is not correct");
+                return;
+        }
+
+    };
+
+    );
+})();
+
+----------------------------------------------------------------------------------------
+2.3. carrées des pairs:
+
+(function() {
+
+    document.getElementById("run").addEventListener("click", function() {
+
+        // your code here
+        function listSquared(1, 21) {
+    const res = [];
+
+    for (let i = 1; i <= 21; i++) {
+        const divs = divisorsOf(i);
+    }
+
+    return res;
+
+       } 
+        
+    });
+
+})();
+-------------------------------------------------------------------------------
+2.4. classer des nombres :
+
+(function() {
+
+    // to get the value of an input: document.getElementById("element-id").value
+
+    document.getElementById("run").addEventListener("click", function() {
+
+        // your code here
+        for(i=0; i<20; i++) {
+            document.write(i +<br/>);
+        
+        
+     --   var nbr,nbrs;
+        const nbrs =20;
+        
+        for(let nbr=1; nbr<=nbrs;nbr++){
+        console.log( ${nbr});
+        }
+
+    });
+
+})();
+
+---------------------------------------------------------------------------------
+2.5. Factorielle:
+(function() {
+    
+    // to get the value of an input: document.getElementById("element-id").value
+
+    document.getElementById("run").addEventListener("click", function() {
+
+        // your code here
+        var i , nbr, f=1;
+        
+        for(i=1; i<=nbr; i++)
+        {
+            f=f*i; // or f*=i;
+        }
+        return f;
+
+    });
+    console.log(
+
+})();
+
+----------------------------------------------------------------------------------
+2.6: fizzbuzz:
+
+(function() {
+
+    // your code here
+    for( var i=1; i<101; i++ ) {
+    if( (i%3) === 0 && (i%5) === 0 ) {
+        console.log( "FizzBuzz" );
+        
+    }else if( (i%3) === 0 ) {
+        console.log( "Fizz" );
+        
+    }else if( (i%5) === 0 ) {
+        console.log( "Buzz" );
+        
+    }else{
+        console.log( i );
+    }
+}
+
+})();
+_______________________________________________________________________________________________________________________________________________________
+---------------------
+3.1. couleur de fond :
+
+(function changecolor(color) {
+
+    // your code here
+
+    document.body.style.background = color;
+   
+
+})();
+-----------------------------------------------------------------------------
+3.2. couleur de fond:
+
+
+(function() {
+
+    // your code here
+    
+
+})();
+
+-------------------------------------------------------------------------------
+3.3. couleur de fond:
+
+(function() {
+
+    // your code here
+    
+    
+
+})();
+__________________________________________________________________________________________________________________________________________________
+4.1. texte en formation de l'heure
+
+(function() {
+
+    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
+
+    // your code here
+    
+    ---
+    
+    
+    
+    
+    
+    var tag = (Hello , Good evening){
+    if (hour<18h) {
+        return ('<em>Hello'</em>');
+        }
+       return ('<em>God evening'</em>');
+    }
+
+})();
+
+----------------------------------------------------------------------------
+4.2. texte en fonction de l'heure:
+
+(function() {
+
+    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
+
+    // your code here
+    
+    
+    
+    
+    
+    
+    
+    var today = new Date()
+    var time today.getHours()
+    
+    if( time<17h30) {
+    console.log("Hello")
+    }
+    else {
+    console.log("Good evening");
+
+})();
+
+
+----------------------------------------------------------------------------
+
+4.3. calculateur d'âge: 
+
+(function calculate_age(dob) {
+
+    // your code here
+
+    var birth = Date.now()-dob.getTime();
+    var check= new Date(birth);
+    
+    return Math.abs(check.getUTCFullYear()-1970);
+    
+    console.log(calculate_age(new Date(1992,8,5)));
+})();
+
+-----------------------------------------------------------
+4.4.date textuelle:
+
+(function() {
+
+    // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
+
+    // your code here
+    document.getElementById("element-id").innerHTML= Date();
+    
+
+})();
+
+
+
+
+-----------------------------------------------------------------
+4.5. calcul des vendredi 13
+
+(function() {
+
+    // your code here
+    
+
+})();
+
+_______________________________________________________________________________________________________________
+5.1. item in array:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
