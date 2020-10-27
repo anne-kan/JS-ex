@@ -332,18 +332,145 @@ ________________________________________________________________________________
 _______________________________________________________________________________________________________________
 5.1. item in array:
 
+(function() {
+
+    var fruits = [
+        "apple",
+        "pear",
+        "raspberry",
+        "tomatos",
+        "kiwi",
+        "banana",
+        "orange",
+        "mandarin",
+        "durian",
+        "peache",
+        "grap",
+        "cherry",
+    ];
+
+    // your code here
+    document.getElementById'"element-id").innerHTML = (fruits[3]); // Affiche : "tomatos"
+
+})();
+
+--------------------------------------------------------------------------
+5.2. manipulate array:
+
+(function() {
+
+    var fruits = [
+        "pomme",
+        "poire",
+        "fraise",
+        "tomate",
+        "orange",
+        "mandarine",
+        "durian",
+        "pêche",
+        "raisin",
+        "cerise",
+    ];
+
+    // your code here
+    fruits.shift(); // retire "pomme"
+    fruits.pop(); //retire "cerise"
+    fruits.unshift("banana"); //ajoute "banana" au début
+    fruits.push('kiwi'); //ajoute "kiwi" à la fin du tableau       
+
+})();
+----------------------------------------------------------------
+5.3. walk through the list(1) :
+
+(function() {
+
+    var fruits = [
+        "apple",
+        "pear",
+        "raspberry",
+        "tomatos",
+        "kiwi",
+        "banana",
+        "orange",
+        "mandarin",
+        "durian",
+        "peache",
+        "grap",
+        "cherry",
+    ];
+
+    // your code here
+    for( var i= 0, i< fruits.lenght; i++) {
+        alert(fruits[i]);
+     }
+})();
+--------------------------------------------------------
+5.4. walk through the list(2):
+
+(function() {
+
+    var fruits = [
+        "pomme",
+        "poire",
+        "fraise",
+        "tomate",
+        "kiwi",
+        "banane",
+        "orange",
+        "mandarine",
+        "durian",
+        "pêche",
+        "raisin",
+        "cerise",
+    ];
+
+    // your code here
+    fruits.foreach(myFoction);
+    
+    function muFunction(item,index) {
+        document.getElementByid("element-id").innerHTML+ = index +":"+ item +"<br>";
+
+})();
+
+-----------------------------------------------------------
+
+5.5. walk trough the array:
 
 
+(function() {
 
+    var people = [
+        {
+            firstname: "Garald",
+            lastname: "Freschi",
+            email: "gfreschi0@discuz.net",
+        },
+        {
+            firstname: "Bendicty",
+            lastname: "Foster-Smith",
+            email: "bfostersmith1@mysql.com",
+        },
+        {
+            firstname: "Michelle",
+            lastname: "Draude",
+            email: "mdraude2@csmonitor.com",
+        },
+        {
+            firstname: "Cathee",
+            lastname: "Meineck",
+            email: "cmeineck3@t-online.de",
+        },
+        {
+            firstname: "Marianna",
+            lastname: "Coal",
+            email: "mcoal4@creativecommons.org",
+        },
+    ];
 
+    // your code here
 
-
-
-
-
-
-
-
+})();
+-------------------------------------------------------------------------
 
 
 
