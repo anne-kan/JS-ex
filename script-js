@@ -425,10 +425,8 @@ ________________________________________________________________________________
     ];
 
     // your code here
-    fruits.foreach(myFoction);
-    
-    function muFunction(item,index) {
-        document.getElementByid("element-id").innerHTML+ = index +":"+ item +"<br>";
+    fruits.forEach(function(item,index) {
+        document.getElementById("element-id").innerHTML+ = index +":"+ item +"<br>";
 
 })();
 
@@ -468,32 +466,425 @@ ________________________________________________________________________________
     ];
 
     // your code here
+    people.forEach(function(lastname,index) {
+    document.getElementById("element-id").innerHTML+ = index +":"+ item +"<br>";
+    
 
 })();
 -------------------------------------------------------------------------
+5.6. find in the array:
+
+(function() {
+
+    const people = [
+        {
+            firstname: "Bradford",
+            lastname: "Coldbath",
+            email: "bcoldbath0@wired.com",
+        },
+        {
+            firstname: "Nadiya",
+            lastname: "Stendell",
+            email: "nstendell1@nsw.gov.au",
+        },
+        {
+            firstname: "Auroora",
+            lastname: "Stapford",
+            email: "astapford2@wsj.com",
+        },
+        {
+            firstname: "Berkley",
+            lastname: "McKall",
+            email: "bmckall3@about.me",
+        },
+        {
+            firstname: "Wolf",
+            lastname: "McCurley",
+            email: "wmccurley4@yale.edu",
+        },
+        {
+            firstname: "Jorrie",
+            lastname: "Canedo",
+            email: "jcanedo5@engadget.com",
+        },
+        {
+            firstname: "Bethanne",
+            lastname: "Ackred",
+            email: "backred6@imgur.com",
+        },
+        {
+            firstname: "Zorah",
+            lastname: "Whild",
+            email: "zwhild7@sogou.com",
+        },
+        {
+            firstname: "Jean",
+            lastname: "Dupont",
+            email: "jdupont@elpais.com",
+        },
+        {
+            firstname: "Zulema",
+            lastname: "Ericsson",
+            email: "zericsson9@ed.gov",
+        },
+        {
+            firstname: "Brady",
+            lastname: "Scrannage",
+            email: "bscrannagea@google.fr",
+        },
+        {
+            firstname: "Isidore",
+            lastname: "Korf",
+            email: "ikorfb@google.com",
+        },
+        {
+            firstname: "Bartholomew",
+            lastname: "Stockbridge",
+            email: "bstockbridgec@is.gd",
+        },
+        {
+            firstname: "Laney",
+            lastname: "O' Mara",
+            email: "lomarad@forbes.com",
+        },
+        {
+            firstname: "Gabe",
+            lastname: "Keatch",
+            email: "gkeatche@google.fr",
+        },
+    ];
+
+    // your code here
+    var id = 'email';
+    alert(people.[id];
+    alert(people.indexOf(
+    
+    
+
+})();
+--------------------------------------------------------------
+
+5.7. filter an array:
 
 
+(function() {
+
+    const people = [
+        {
+            firstname: "Dreddy",
+            lastname: "Nussgen",
+            age: 70,
+        },
+        {
+            firstname: "Yves",
+            lastname: "Sear",
+            age: 49,
+        },
+        {
+            firstname: "Marcel",
+            lastname: "Cowderay",
+            age: 59,
+        },
+        {
+            firstname: "Dag",
+            lastname: "Binnall",
+            age: 31,
+        },
+        {
+            firstname: "Horten",
+            lastname: "Claesens",
+            age: 75,
+        },
+        {
+            firstname: "Charmian",
+            lastname: "Harnes",
+            age: 10,
+        },
+        {
+            firstname: "Sean",
+            lastname: "Littlejohns",
+            age: 37,
+        },
+        {
+            firstname: "Hazlett",
+            lastname: "Sprouls",
+            age: 87,
+        },
+        {
+            firstname: "Marcel",
+            lastname: "Hasted",
+            age: 66,
+        },
+        {
+            firstname: "Cary",
+            lastname: "Summerson",
+            age: 15,
+        },
+        {
+            firstname: "Feodor",
+            lastname: "Ollett",
+            age: 56,
+        },
+        {
+            firstname: "Kelly",
+            lastname: "Ranahan",
+            age: 62,
+        },
+        {
+            firstname: "Madelene",
+            lastname: "Davie",
+            age: 14,
+        },
+        {
+            firstname: "Bent",
+            lastname: "Karpe",
+            age: 82,
+        },
+        {
+            firstname: "Reinaldo",
+            lastname: "Grimbleby",
+            age: 81,
+        },
+    ];
+
+    // your code here
+    
+    
+    
+    
+    
+
+})();
+-----------------------------------------------------------------
+
+5.8. presence in an aray:
+(function() {
+
+    const fruits = [
+        "apple",
+        "perry",
+        "strawberry",
+        "tomato",
+        "kiwi",
+        "banana",
+        "orange",
+        "mandarin",
+        "durian",
+        "peach",
+        "grapes",
+        "cherry",
+    ];
+
+    // your code here
+
+})();
+
+--------------------------------------------------------------------
+5.9. random & statistics array:
 
 
+(function() {
 
+    // your code here
+    
+    
+    
 
+})();
 
+---------------------------------------------------------------------
+5.10. using reducer:
 
+(function() {
 
+    var people = [
+        {
+            firstname: "Grenville",
+            lastname: "Stive",
+            age: 64,
+        },
+        {
+            firstname: "Luis",
+            lastname: "Jedrzejewsky",
+            age: 73,
+        },
+        {
+            firstname: "Teodor",
+            lastname: "Warrington",
+            age: 56,
+        },
+        {
+            firstname: "Danya",
+            lastname: "Bigby",
+            age: 17,
+        },
+        {
+            firstname: "Jemmy",
+            lastname: "Goodbur",
+            age: 87,
+        },
+        {
+            firstname: "Vilhelmina",
+            lastname: "Fost",
+            age: 43,
+        },
+        {
+            firstname: "Igor",
+            lastname: "Putson",
+            age: 45,
+        },
+        {
+            firstname: "Klement",
+            lastname: "Braybrook",
+            age: 88,
+        },
+        {
+            firstname: "Trefor",
+            lastname: "Le Jean",
+            age: 69,
+        },
+        {
+            firstname: "Tarrah",
+            lastname: "de Clerc",
+            age: 77,
+        },
+        {
+            firstname: "Brad",
+            lastname: "Hookes",
+            age: 82,
+        },
+        {
+            firstname: "Kippar",
+            lastname: "Fancet",
+            age: 25,
+        },
+        {
+            firstname: "Jecho",
+            lastname: "Hawket",
+            age: 87,
+        },
+        {
+            firstname: "Lief",
+            lastname: "Blazy",
+            age: 80,
+        },
+        {
+            firstname: "Jo-ann",
+            lastname: "Sacase",
+            age: 81,
+        },
+    ];
 
+    // your code here
 
+})();
 
+-------------------------------------------------------------
+5.11. de-dupe the array :
 
+(function() {
 
+    const fruits = [
+        "cerise",
+        "durian",
+        "pomme",
+        "poire",
+        "fraise",
+        "tomate",
+        "orange",
+        "mandarine",
+        "fraise",
+        "durian",
+        "pêche",
+        "cerise",
+        "raisin",
+        "cerise",
+    ];
 
+    // your code here
+    
+    
 
+})();
 
+----------------------------------------------------------------
+5.12. manipulation of a Set: 
 
+(() => {
+    const fruits = new Set([
+        "apple",
+        "pear",
+        "strawberry",
+        "tomato",
+        "orange",
+        "mandarin",
+        "durian",
+        "peach",
+        "grape",
+        "cherry",
+    ]);
 
+    // your code here
+    
+    
+})();
 
+-------------------------------------------------------------------
+5.13. Find in a Set: 
 
+(() => {
+    const people = new Set([
+        "Nicolas",
+        "Nick",
+        "Leny",
+        "Alexandre",
+        "Charlène",
+        "Laureline",
+        "Esther",
+        "Simon",
+        "Lucas",
+    ]);
 
+    // your code here
+    
+    
+})();
+----------------------------------------------------------------------
+5.14. Bird names generator in French:
 
+(() => {
+    const birds = [
+        {name: "mouette", fem: true},
+        {name: "corbeau"},
+        {name: "mésange", fem: true},
+        {name: "hibou"},
+        {name: "buse", fem: true},
+        {name: "pigeon"},
+        {name: "pie", fem: true},
+        {name: "vautour"},
+        {name: "faucon"},
+        {name: "rouge-gorge"},
+        {name: "tourterelle", fem: true},
+        {name: "corneille", fem: true},
+    ];
+    const adjectives = new Set([
+        "cendré",
+        "huppé",
+        "chantant",
+        "hurlant",
+        "perché",
+        "grand",
+        "petit",
+        "bleu",
+        "pantelant",
+        "tangent",
+        "arboré",
+    ]);
+
+    // your code here
+})();
+
+-------------------------------------------------------------------
 
 
 
