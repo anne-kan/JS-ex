@@ -268,22 +268,18 @@ ________________________________________________________________________________
     // to change the content of a tag: document.getElementById("element-id").innerHTML = "new-value"
 
     // your code here
-    
-    
-    
-    
-    
-    
-    
-    var today = new Date()
-    var time today.getHours()
-    
-    if( time<17h30) {
-    console.log("Hello")
-    }
-    else {
-    console.log("Good evening");
 
+    var today = new Date()
+    var hrs = today.getHours()
+    
+    var greet;
+    
+    if( hrs < 17h30) 
+        greet= "Hello"
+    else 
+        greet = "Good evening";;   
+        
+    document.getElementById('element-id").innerHTML= greet
 })();
 
 
@@ -468,7 +464,7 @@ ________________________________________________________________________________
     // your code here
     people.forEach(function(lastname,index) {
     document.getElementById("element-id").innerHTML+ = index +":"+ item +"<br>";
-    
+    }
 
 })();
 -------------------------------------------------------------------------
@@ -648,7 +644,14 @@ ________________________________________________________________________________
     ];
 
     // your code here
+    function checkeAdult(age) {
+    return age>=18;
+    }
+    function myFunction (){
+    document.getElementById("element-id").innerHTML =ages.find(checkAdult);
     
+    var adult [];
+    .....
     
     
     
@@ -676,6 +679,10 @@ ________________________________________________________________________________
     ];
 
     // your code here
+    var n = fruits.includes("apple");
+    
+    documen.getElementById("element-id").innerHTML =n;
+    
 
 })();
 
@@ -686,7 +693,7 @@ ________________________________________________________________________________
 (function() {
 
     // your code here
-    
+    var 
     
     
 
@@ -776,6 +783,12 @@ ________________________________________________________________________________
     ];
 
     // your code here
+    function getSum(total,ages) {
+    return total+ Math.round(ages);
+    }
+    fuction myFunction(item) {
+    document.getElementById("element-id").innerHTML = people.reduce(getSum,0);
+    }
 
 })();
 
@@ -802,12 +815,15 @@ ________________________________________________________________________________
     ];
 
     // your code here
+    [...new Set(fruits)]; 
+    console.log (fruits);
     
     
 
 })();
 
 ----------------------------------------------------------------
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 5.12. manipulation of a Set: 
 
 (() => {
@@ -827,8 +843,9 @@ ________________________________________________________________________________
     // your code here
     
     
+    
 })();
-
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 -------------------------------------------------------------------
 5.13. Find in a Set: 
 
@@ -882,6 +899,7 @@ ________________________________________________________________________________
     ]);
 
     // your code here
+    
 })();
 
 -------------------------------------------------------------------
